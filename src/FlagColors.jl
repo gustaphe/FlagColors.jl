@@ -1,5 +1,7 @@
 module FlagColors
+using Colors, ColorSchemes
+export flagcolors
 
-# Write your package code here.
+include("../resources/flagcolors.jl")
 
 end
