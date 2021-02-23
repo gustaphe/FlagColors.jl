@@ -7,7 +7,10 @@ all flags from the database at
 
 These colorschemes were automatically created, and no part of this package is
 in any way intended as a political statement. Any errors are likely to be due
-to quirks in parsing the svg files.
+to quirks in parsing the svg files. Specifically, some flags are entirely white.
+This is not a play on the surrender flag, but my parsing function returning white
+as a default when the svg specifies some exotic color format. Please submit a PR
+to correct any such deviations found.
 
 The colorschemes are meant to be used to represent different countries in data
 vizualisations, but are not guaranteed to be effective for this purpose. The
